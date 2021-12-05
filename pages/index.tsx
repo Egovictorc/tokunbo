@@ -33,7 +33,8 @@ const Home: NextPage = () => {
         <Container maxWidth="md">
           <Card elevation={3} sx={{ maxWidth: "sm", mx: "auto" }}>
             <CardContent>
-              <Typography variant="h5" sx={{ textAlign: "center" }}>
+              <Typography variant="h5" sx={{ textAlign: "center", mb: 2 }}
+              >
                 Making Transportation Enjoyable and Memorable
               </Typography>
               {!show ? (

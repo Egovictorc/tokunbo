@@ -18,7 +18,7 @@ name, src, alt,
                 Hello {name}
             </Typography>
             <Typography variant="body1">
-                Your car is {color.name} {make} {model}
+                Your car is <b>{color.name} {make} {model}</b>
             </Typography>
         </div>
     )
